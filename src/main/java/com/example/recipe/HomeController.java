@@ -29,4 +29,9 @@ public class HomeController {
     public String recipespic(){
         return "recipespic";
     }
+
+    @RequestMapping("/author")
+    public String author(){
+        return "author";
+    }
 }

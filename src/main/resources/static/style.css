@@ -1,11 +1,38 @@
 body{
-    position: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background: url(pancakes.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+h1{
+    color:blue;
+}
+
+p{
+    color:white;
+    font-family: "Adobe Caslon Pro";
+    font-size: 30px;
+}
+
+ul{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+h2{
+    color: green;
+}
 
 .navbar {
+    margin-left: -60px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #331;
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,26 +60,19 @@ body{
 }
 
 
-
-html {
-    background: url(pancakes.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-
-.column {
-    float: left;
+.row{
+    margin: auto;
     width: 50%;
-    padding: 5px;
+    border: none;
+    padding: 50px;
+    text-align: center;
 }
 
+.column:hover{
+    opacity: 0.5;
+}
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.radio {
+    border-radius: 50%;
+    opacity: 0.8;
 }
